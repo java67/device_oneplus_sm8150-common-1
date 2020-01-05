@@ -24,4 +24,7 @@
     <!-- Whether the binned brightness sensor reports a value of 0 on proximity
          near events -->
     <bool name="doze_brightness_sensor_reports_proximity">false</bool>
+
+    <!-- Color of the FOD view -->
+    <color name="config_fodColor">#ccccac</color>
 </resources>
