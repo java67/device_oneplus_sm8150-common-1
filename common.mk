@@ -376,7 +376,8 @@ PRODUCT_PACKAGES += \
     OnePlusCameraService
 
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/prebuilts/etc/permissions/privapp-permissions-oem-system.xml:system/etc/permissions/privapp-permissions-oem-system.xml
+    $(LOCAL_PATH)/prebuilts/etc/permissions/privapp-permissions-oem-system.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-oem-system.xml \
+    $(LOCAL_PATH)/prebuilts/etc/sysconfig/hiddenapi-package-whitelist-oneplus.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/hiddenapi-package-whitelist-oneplus.xml
 
 # QMI
 PRODUCT_PACKAGES += \
