@@ -370,18 +370,6 @@ vendor/lib64/libvl53l1_daemon.so
 vendor/lib64/sensors.hal.tof.so
 vendor/lib64/vendor.oneplus.camera.CameraMDMHIDL@1.0.so
 
-# New Camera Blobs
-vendor/lib/libarcsoft_portrait_distortion_correction.so
-vendor/lib/libgui_vendor.so
-vendor/lib/libstdc++.so
-vendor/lib/libyuv_watermark.so
-vendor/lib/vendor.oneplus.hardware.translation@1.0.so
-vendor/lib64/libarcsoft_portrait_distortion_correction.so
-vendor/lib64/libDxHdcp.so
-vendor/lib64/libstdc++.so
-vendor/lib64/libyuv_watermark.so
-vendor/lib64/vendor.oneplus.hardware.translation@1.0.so
-
 # Camera firmware
 vendor/firmware/CAMERA_ICP.elf
 
