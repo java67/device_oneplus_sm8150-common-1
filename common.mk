@@ -434,6 +434,10 @@ PRODUCT_BOOT_JARS += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/privapp-permissions-ims.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-ims.xml
 
+# Prebuilts
+PRODUCT_PACKAGES += \
+    OnePlusCameraService
+
 # TextClassifier
 PRODUCT_PACKAGES += \
     textclassifier.bundle1
