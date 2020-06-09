@@ -501,6 +501,16 @@
         <fqname>@1.0::IOnePlusCameraMDM/default</fqname>
     </hal>
     <hal format="hidl">
+        <name>vendor.oneplus.hardware.translation</name>
+        <transport>hwbinder</transport>
+        <version>1.0</version>
+        <interface>
+            <name>IOneplusTranslation</name>
+            <instance>default</instance>
+        </interface>
+        <fqname>@1.0::IOneplusTranslation/default</fqname>
+    </hal>
+    <hal format="hidl">
         <name>vendor.oneplus.fingerprint.extension</name>
         <transport>hwbinder</transport>
         <version>1.0</version>

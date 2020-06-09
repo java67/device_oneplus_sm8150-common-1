@@ -34,3 +34,9 @@ allow hal_camera_default sysfs:file r_file_perms;
 
 # For boot time GPU access (b/111370628)
 hal_client_domain(hal_camera_default, hal_configstore)
+
+# Allow hal_camera_default to find hal_cameraMDMHIDL_hwservice
+allow hal_camera_default hal_cameraMDMHIDL_hwservice:hwservice_manager find;
+
+# Allow hal_camera_default to find hal_translation_hwservice
+allow hal_camera_default hal_translation_hwservice:hwservice_manager find;

@@ -1,4 +1,6 @@
 allow untrusted_app_27 persist_camera_prop:file { read } ;
 
+allow untrusted_app_27 sysfs_net:dir { open read search };
+
 allow untrusted_app_27 proc_net:file { read open };
 allow untrusted_app_27 rootfs:dir { read open };
