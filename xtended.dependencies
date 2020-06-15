@@ -5,6 +5,11 @@
     "branch"      : "xq"
   },
   {
+    "repository"  : "kdrag0n/proton-clang",
+    "target_path" : "prebuilts/clang/host/linux-x86/clang-proton",
+    "branch"      : "master"
+  },
+  {
     "repository"  : "proprietary_vendor_oneplus",
     "target_path" : "vendor/oneplus",
     "branch"      : "xq-guc"
