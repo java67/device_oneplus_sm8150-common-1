@@ -5,6 +5,11 @@
     "branch"      : "qemu"
   },
   {
+    "repository"  : "kdrag0n/proton-clang",
+    "target_path" : "prebuilts/clang/host/linux-x86/clang-proton",
+    "branch"      : "master"
+  },
+  {
     "repository"  : "vendor_oneplus",
     "target_path" : "vendor/oneplus",
     "branch"      : "qemu"
